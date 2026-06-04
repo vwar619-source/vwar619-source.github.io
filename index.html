@@ -1,40 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Vignesh Tax Website</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vignesh VR - Accounts & Tax Consultant | Kumbakonam</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-<body>
-    <header>
-        <div class="container">
-            <h1>Welcome to Vignesh Tax Services</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+<body class="bg-white text-gray-900 font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-[#001f3f] text-white sticky top-0 z-50 shadow">
+    <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Vignesh's Updates</h1>
+      <div class="hidden md:flex space-x-8">
+        <a href="index.html" class="hover:text-blue-300">Home</a>
+        <a href="about.html" class="hover:text-blue-300">About</a>
+        <a href="#blog" class="hover:text-blue-300">Blog</a>
+        <a href="resources.html" class="hover:text-blue-300">Resources</a>
+        <a href="contact.html" class="hover:text-blue-300">Contact</a>
+      </div>
+      <button id="mobile-menu-btn" class="md:hidden text-2xl">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="bg-[#001f3f] text-white py-24">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-5xl font-bold mb-6">Welcome to Vignesh's Updates</h2>
+      <p class="text-xl max-w-2xl mx-auto mb-10">Accounting & Tax Updates by Vignesh VR, Accounts & Tax Consultant</p>
+      <a href="#blog" class="bg-white text-[#001f3f] px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 inline-block">
+        Read Latest Articles →
+      </a>
+    </div>
+  </section>
+
+  <!-- Latest Posts -->
+  <section id="blog" class="max-w-6xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold mb-8 text-center text-[#001f3f]">Latest Blog Posts</h2>
+
+    <div class="flex flex-wrap justify-center gap-3 mb-12">
+      <a href="#cat-gst" class="px-4 py-2 rounded-full border border-[#001f3f] bg-[#001f3f] text-white text-sm font-medium hover:bg-[#003050]">GST</a>
+      <a href="#cat-income" class="px-4 py-2 rounded-full border border-[#001f3f] bg-white text-[#001f3f] text-sm font-medium hover:bg-[#f1f5f9]">Income Tax</a>
+      <a href="#cat-mca" class="px-4 py-2 rounded-full border border-[#001f3f] bg-white text-[#001f3f] text-sm font-medium hover:bg-[#f1f5f9]">MCA/ROC</a>
+      <a href="#cat-ifrs" class="px-4 py-2 rounded-full border border-[#001f3f] bg-white text-[#001f3f] text-sm font-medium hover:bg-[#f1f5f9]">IFRS</a>
+      <a href="#cat-as" class="px-4 py-2 rounded-full border border-[#001f3f] bg-white text-[#001f3f] text-sm font-medium hover:bg-[#f1f5f9]">AS/Ind-AS</a>
+      <a href="#cat-cahub" class="px-4 py-2 rounded-full border border-[#001f3f] bg-white text-[#001f3f] text-sm font-medium hover:bg-[#f1f5f9]">CA Hub</a>
+    </div>
+
+    <div class="space-y-16">
+      <div id="cat-gst">
+        <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between mb-6">
+          <h3 class="text-2xl font-semibold text-[#001f3f]">GST</h3>
+          <p class="text-gray-500">Latest updates and practical guidance for GST compliance.</p>
         </div>
-    </header>
+        <div class="grid md:grid-cols-3 gap-8">
+          <a href="posts/post-1.html" class="group bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-xl transition">
+            <div class="h-52 bg-gray-200 flex items-center justify-center">
+              <span class="text-gray-400 text-sm">Featured Image</span>
+            </div>
+            <div class="p-6">
+              <div class="flex items-center gap-2 mb-3">
+                <span class="bg-red-100 text-red-800 text-xs font-semibold px-3 py-1 rounded-full">GST</span>
+                <span class="text-gray-500 text-xs">02 June 2026</span>
+              </div>
+              <h3 class="font-semibold text-xl mb-3 group-hover:text-[#001f3f]">Important Changes in Input Tax Credit Rules 2026</h3>
+              <p class="text-gray-600 line-clamp-3">Complete analysis of latest GST notifications and practical impact on Tamil Nadu businesses...</p>
+            </div>
+          </a>
 
-    <main>
-        <section class="hero">
-            <h2>Professional Tax Services</h2>
-            <p>Your trusted partner for tax planning and preparation</p>
-        </section>
+          <a href="posts/post-1.html" class="group bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-xl transition">
+            <div class="h-52 bg-gray-200 flex items-center justify-center">
+              <span class="text-gray-400 text-sm">Featured Image</span>
+            </div>
+            <div class="p-6">
+              <div class="flex items-center gap-2 mb-3">
+                <span class="bg-red-100 text-red-800 text-xs font-semibold px-3 py-1 rounded-full">GST</span>
+                <span class="text-gray-500 text-xs">22 May 2026</span>
+              </div>
+              <h3 class="font-semibold text-xl mb-3 group-hover:text-[#001f3f]">GST Return Filing: Step-by-Step Guide</h3>
+              <p class="text-gray-600 line-clamp-3">Learn how to file GST returns accurately and meet all compliance deadlines...</p>
+            </div>
+          </a>
+        </div>
+      </div>
 
-        <section class="content">
-            <p>Welcome to our website. We provide comprehensive tax services tailored to your needs.</p>
-        </section>
-    </main>
+      <div id="cat-income">
+        <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between mb-6">
+          <h3 class="text-2xl font-semibold text-[#001f3f]">Income Tax</h3>
+          <p class="text-gray-500">Practical tax planning and compliance advice for individuals and businesses.</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+          <a href="posts/post-2.html" class="group bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-xl transition">
+            <div class="h-52 bg-gray-200 flex items-center justify-center">
+              <span class="text-gray-400 text-sm">Featured Image</span>
+            </div>
+            <div class="p-6">
+              <div class="flex items-center gap-2 mb-3">
+                <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full">Income Tax</span>
+                <span class="text-gray-500 text-xs">03 June 2026</span>
+              </div>
+              <h3 class="font-semibold text-xl mb-3 group-hover:text-[#001f3f]">Introduction to Income Tax Act, 2025</h3>
+              <p class="text-gray-600 line-clamp-3">Comprehensive overview of the new Income Tax Act, 2025 - the landmark reform replacing the 1961 Act with simplified structure and reduced compliance burden...</p>
+            </div>
+          </a>
+        </div>
+      </div>
 
-    <footer>
-        <p>&copy; 2024 Vignesh Tax Services. All rights reserved.</p>
-    </footer>
+      <div id="cat-mca">
+        <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between mb-6">
+          <h3 class="text-2xl font-semibold text-[#001f3f]">MCA/ROC</h3>
+          <p class="text-gray-500">Updates and compliance guidance for Ministry of Corporate Affairs and ROC filings.</p>
+        </div>
+        <div class="py-12 text-center text-gray-500">Coming soon</div>
+      </div>
 
-    <script src="js/script.js"></script>
+      <div id="cat-ifrs">
+        <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between mb-6">
+          <h3 class="text-2xl font-semibold text-[#001f3f]">IFRS</h3>
+          <p class="text-gray-500">Practical implementation guidance for IFRS standards in India.</p>
+        </div>
+        <div class="py-12 text-center text-gray-500">Coming soon</div>
+      </div>
+
+      <div id="cat-as">
+        <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between mb-6">
+          <h3 class="text-2xl font-semibold text-[#001f3f]">AS/Ind-AS</h3>
+          <p class="text-gray-500">Guidance for Ind-AS compliance, disclosures, and revenue recognition.</p>
+        </div>
+        <div class="py-12 text-center text-gray-500">Coming soon</div>
+      </div>
+
+      <div id="cat-cahub">
+        <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between mb-6">
+          <h3 class="text-2xl font-semibold text-[#001f3f]">CA Hub</h3>
+          <p class="text-gray-500">Resources and updates for chartered accountants and finance professionals.</p>
+        </div>
+        <div class="py-12 text-center text-gray-500">Coming soon</div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-[#001f3f] text-white py-12">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <p class="font-semibold">Vignesh VR</p>
+      <p>Accounts & Tax Consultant | Kumbakonam, Tamil Nadu</p>
+      <p class="text-sm mt-4">© 2026 All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>

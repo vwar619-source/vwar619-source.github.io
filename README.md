@@ -1,11 +1,11 @@
-# Vignesh Tax Website
+# Vignesh Updates
 
 A professional tax services website built with HTML, CSS, and JavaScript.
 
 ## Project Structure
 
 ```
-vignesh-tax-website/
+vignesh-updates/
 ├── index.html              # Homepage
 ├── about.html              # About page
 ├── contact.html            # Contact page with form
