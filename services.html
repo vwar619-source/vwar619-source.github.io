@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Vignesh VR | Accounts & Tax Consultant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        .service-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgb(0 31 63 / 0.1), 0 8px 10px -6px rgb(0 31 63 / 0.1);
+        }
+        .category-header {
+            background: linear-gradient(135deg, #001f3f, #003366);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-[#001f3f] text-white sticky top-0 z-50 shadow">
+    <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+      <!-- Logo + Title -->
+      <div class="flex items-center gap-3">
+        <img src="assets/images/logo.png" 
+             alt="Vignesh Updates Logo" 
+             class="h-16 w-auto">
+        <h1 class="text-2xl font-bold">Vignesh Updates</h1>
+      </div>
+     
+      <div class="hidden md:flex space-x-8">
+        <a href="index.html" class="hover:text-blue-300">Home</a>
+        <a href="about.html" class="hover:text-blue-300">About</a>
+        <a href="index.html#blog" class="hover:text-blue-300">Blog</a>
+        <a href="services.html" class="hover:text-blue-300">Services</a>
+        <a href="resources.html" class="hover:text-blue-300">Resources</a>
+        <a href="contact.html" class="hover:text-blue-300">Contact</a>
+      </div>
+      <button id="mobile-menu-btn" class="md:hidden text-2xl">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="bg-[#001f3f] text-white py-20">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h1 class="text-5xl font-bold mb-6">Our Professional Services</h1>
+      <p class="text-xl max-w-2xl mx-auto">Comprehensive Accounting, Taxation &amp; Compliance Solutions for Businesses and Individuals by VR Accounting Solutions, Kumbakonam &amp; Tamil Nadu</p>
+      <div class="mt-8 flex justify-center gap-4">
+        <a href="contact.html" class="border-2 border-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-[#001f3f] transition inline-flex items-center">
+          Get In Touch
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Content - Unique Style: Modern Grid with Icons & Accordion Sub-items -->
+  <section id="services-list" class="max-w-6xl mx-auto px-6 py-16">
+    <div class="grid md:grid-cols-2 gap-8" id="services-grid">
+      
+      <!-- Accounting & Book-keeping -->
+      <div class="service-card bg-white border border-gray-200 rounded-3xl overflow-hidden">
+        <div class="category-header p-8 text-white">
+          <div class="flex items-center gap-4">
+            <div class="w-14 h-14 bg-white/20 backdrop-blur rounded-2xl flex items-center justify-center text-3xl">📊</div>
+            <div>
+              <h3 class="text-2xl font-bold">Accounting &amp; Book-keeping</h3>
+              <p class="text-blue-100 mt-1">Accurate &amp; Timely Record Keeping</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-8">
+          <ul class="space-y-4 text-gray-700">
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> Tally Prime</li>
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> Zoho Books Online</li>
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> QuickBooks Online</li>
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> Xero</li>
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> SAP FICO via Fiori Apps</li>
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> Any other ERPs</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Financial Statements -->
+      <div class="service-card bg-white border border-gray-200 rounded-3xl overflow-hidden">
+        <div class="category-header p-8 text-white">
+          <div class="flex items-center gap-4">
+            <div class="w-14 h-14 bg-white/20 backdrop-blur rounded-2xl flex items-center justify-center text-3xl">📋</div>
+            <div>
+              <h3 class="text-2xl font-bold">Financial Statements</h3>
+              <p class="text-blue-100 mt-1">Compliant Financial Reporting </p>
+            </div>
+          </div>
+        </div>
+        <div class="p-8">
+          <ul class="space-y-4 text-gray-700">
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> AS (ICAI) – Corporate &amp; Non-Corporate (Schedule III)</li>
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> Ind AS (ICAI) (Schedule III)</li>
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> IFRS</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Income Tax -->
+      <div class="service-card bg-white border border-gray-200 rounded-3xl overflow-hidden col-span-1 md:col-span-2 lg:col-span-1">
+        <div class="category-header p-8 text-white">
+          <div class="flex items-center gap-4">
+            <div class="w-14 h-14 bg-white/20 backdrop-blur rounded-2xl flex items-center justify-center text-3xl">💼</div>
+            <div>
+              <h3 class="text-2xl font-bold">Income Tax</h3>
+              <p class="text-blue-100 mt-1">Direct Tax Compliance</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-8">
+          <div class="grid grid-cols-1 gap-3">
+            <div class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> PAN, TAN Application &amp; Corrections</div>
+            <div class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> ITR Filings</div>
+            <div class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> Income Tax Forms</div>
+            <div class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> TDS Returns &amp; Corrections</div>
+            <div class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> Drafting Reply to Income Tax Notices</div>
+            <div class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> Drafting Written Submission, SOF, GOA, MOCOB in Appeal Filings</div>
+            <div class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> SFT Forms</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- GST -->
+      <div class="service-card bg-white border border-gray-200 rounded-3xl overflow-hidden">
+        <div class="category-header p-8 text-white">
+          <div class="flex items-center gap-4">
+            <div class="w-14 h-14 bg-white/20 backdrop-blur rounded-2xl flex items-center justify-center text-3xl">🧾</div>
+            <div>
+              <h3 class="text-2xl font-bold">GST</h3>
+              <p class="text-blue-100 mt-1">Complete GST Solutions</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-8">
+          <ul class="space-y-4 text-gray-700">
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> GST Registration &amp; Amendments</li>
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> GST Cancellation &amp; Revocation</li>
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> GST Returns (GSTR-1, 3B, 9, 9C etc.)</li>
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> GST ITC Related Forms</li>
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> GST Refund Applications</li>
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> Reply to Show Cause Notices</li>
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> Client Representation before Tax Authorities</li>
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> GST TDS Returns</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Registrations & Approvals -->
+      <div class="service-card bg-white border border-gray-200 rounded-3xl overflow-hidden">
+        <div class="category-header p-8 text-white">
+          <div class="flex items-center gap-4">
+            <div class="w-14 h-14 bg-white/20 backdrop-blur rounded-2xl flex items-center justify-center text-3xl">📝</div>
+            <div>
+              <h3 class="text-2xl font-bold">Registrations &amp; Approvals</h3>
+              <p class="text-blue-100 mt-1">Incorporation &amp; Setup Compliance</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-8">
+          <ul class="space-y-4 text-gray-700">
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> PAN, TAN, GST Registration</li>
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> Sec. 332 (ITA, 2025) Registration for Trust/NGO (12AB/80G under ITA,1961)</li>
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> Partnership Firm Incorporation & Registration (TN Govt.)</li>
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> Society Incorporation & Registration (TN Govt.)</li>
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> Udyam MSME Registration</li>
+            <li class="flex gap-3"><i class="fas fa-check text-emerald-500 mt-1"></i> Importer-Exporter Code (IEC)</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+    <!-- CTA -->
+    <div class="mt-16 p-8 max-w-6xl mx-auto bg-[#001f3f] text-white rounded-lg">
+      <h2 class="text-xl font-semibold mb-3">Ready to Simplify Your Compliance?</h2>
+      <p class="mb-4">Contact us today for expert guidance on accounting, taxation, and regulatory requirements.</p>
+      <a href="contact.html" class="inline-block bg-white text-[#001f3f] px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+        Schedule a Consultation
+      </a>
+    </div>
+  
+  <!-- Footer -->
+  <footer class="bg-[#001f3f] text-white py-12">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <p class="font-semibold">Vignesh VR</p>
+      <p>Accounts &amp; Tax Consultant | Kumbakonam, Tamil Nadu</p>
+      <p class="text-sm mt-4">© 2026 All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
